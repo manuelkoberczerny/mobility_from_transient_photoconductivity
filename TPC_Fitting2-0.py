@@ -229,9 +229,8 @@ def Fitting_Cond(photo_cond, time, time_RC_max_old, tau_old, args):
 
 def Exc_Density_Calc(OD_Filter, args):
     """ Unpack Ref Data File - The file contains powerdensities in mW cm-2"""
-    wavelength, *Data = np.loadtxt(str(folder + '\TPC_Files\\'+args.laser_reference_file), unpack=True, skiprows=1)
-
-
+    folder = os.getcwd()
+    wavelength, *Data = np.loadtxt(f'{folder}/TPC_Files/{args.laser_reference_file}', unpack=True, skiprows=1)
 
     if np.shape(Data)[0] > 2:
         Ref_File = pd.DataFrame({'Wavelength':[wavelength],'PowerDens':[Data[0]],'Error':[Data[1]],'Correction':[Data[2]]})
