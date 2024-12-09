@@ -1,0 +1,13 @@
+Notes
+
+Laser:		470nm
+Voltage:	3.04V
+OD Filter:	0 OD
+Mask:		300 um
+type:		lateral
+
+Eb:		10 meV
+k1,k2:		empty
+k3:		0		
+Absorption:	0
+Reflectance:	20%
