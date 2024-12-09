@@ -6,6 +6,11 @@ The theory is described in the publication in more detail.
 
 ## Getting Started
 ### Installation and Usage
+Create and activate a new Python (version 3.10) virtual environment e.g. using [conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html), [venv](https://docs.python.org/3/library/venv.html) etc. Then clone this repository using [git](https://git-scm.com) and navigate to its newly created directory:
+```
+git clone https://github.com/manuelkoberczerny/mobility_from_transient_photoconductivity.git
+```
+
 Install the [Gooey](https://pypi.org/project/Gooey/) package in any or a new Python (version 3.10) environment.
 Open your python command line and run
 ```
