@@ -75,7 +75,7 @@ This opens a GUI to set up the analysis.
   </tr>
   <tr>
     <td>Absorption_Coefficient</td>
-    <td>absorption coefficient of the sample at the incident laser wavelength in cm^-1</td>
+    <td>absorption coefficient of the sample at the incident laser wavelength in cm^-1. If empty or zero, all light that is not reflected is assumed to be absorbed.</td>
   </tr>
   <tr>
     <td>Reflectance</td>
